@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Montserrat', sans-serif;
+    list-style: none;
+}
+
+body{
+    background-image: url('./assets/fundo.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container-logo{
+    margin-top:2vh;
+    margin-left:4vw;   
+}
+
+h1{
+    color:white;
+    width:20vw;
+    margin-left:7vw;
+    margin-top: -12vh;
+}
+
+main{
+    width:100%;
+}
+
+/*.bruxo{
+    margin-left:24vw;
+    margin-top:4vh;
+}*/
+
+header li{
+    color:white;
+}
+
+.universo{
+    margin-left:54vw;
+    margin-top:-4vh;
+}
+
+.atores{
+    margin-left:64vw;
+    margin-top:-3vh;
+}
+
+.temporadas{
+    margin-left:72vw;
+    margin-top:-3vh;
+}
+
+.comunidades{
+    margin-left:83vw;
+    margin-top:-3vh;
+}
+
+header li:hover{
+    cursor:pointer;
+    font-weight: 700;
+}
+
+.nome{
+    background-image: url('./assets/bruxo.png');
+    background-repeat: no-repeat;
+    background-position: top 2vh left 24vw;
+}
+
+.nomeGrande{
+    margin-top:77vh;
+    margin-left:35vw;
+}
+
+.botao{
+    margin-top:4vh;
+    margin-left:38vw;
+}
